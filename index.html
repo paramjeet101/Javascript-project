@@ -1,0 +1,1344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My form</title>
+    <link rel="icon" href="maa.jpg" type="image/jpg">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <style>
+      
+        .new40{
+            padding-top: 22px;
+        } 
+        body{
+            padding: 0px;
+            margin: 0px;
+            /* background-color:lightgreen; */
+        }
+        #new1{
+            width: 100%;
+            height: 100vh;
+            overflow-y: scroll;
+            background: linear-gradient(to right,rgb(127,180,228),rgb(199,98,241));
+            display: none;
+        
+           
+        }
+        #new2{
+            text-align: center;
+            padding-top: 30px;
+            color:yellow
+            
+        }
+        #new2 h1{
+            font-size: 50px;
+        }
+        #new2 h2{
+            font-size: 40px;
+        }
+        #new3{
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        #new4{
+            padding-bottom: 30px;
+        }
+        #new5{
+            margin: 10px;
+            padding: 7px 10px 7px 10px;
+            background-color: rgb(255, 234, 0);
+            border-radius: 10px;
+            color: red;
+            outline: red;
+            font-size: 22px;
+            border-color: red;
+        }
+        #same3{
+            padding: 7px 10px 7px 10px;
+           margin:5px;
+           font-size: 22px;
+           border-radius: 10px;
+           color: red;
+           background-color: rgb(255, 234, 0);
+           border-color: red;
+           outline: red;
+        }
+        .abc1{
+           
+            padding-top: 30px;
+            display: flex;
+            justify-content: space-evenly;
+       
+        }
+    
+        .abc3:focus{
+            background-color:aqua;
+            border-color:greenyellow;
+        }
+     
+        .abc3::placeholder{
+            color: red;
+        }
+      
+        .abc5{
+            font-size: 30px;
+            position: absolute;
+            top:30px;
+            bottom: 30px;
+            text-transform: capitalize;
+        }
+        #abc12{
+            margin-left: 100px;
+        }
+        .abc6{
+            padding: 10px 170px 10px 15px ;
+            font-size: 20px;
+            text-transform: capitalize;
+             background-color:yellow;
+            border-color:red;
+            color: red;
+            font-size: 20px;
+            outline: none;
+            border-radius: 10px;
+            outline: red;
+        }
+        .abc6::placeholder{
+            color: red;
+        }
+        #extra1{
+            display: none;
+        }
+        #extra2{
+            display: none;
+        }
+        #extra3{
+            display: none;
+        }
+        #new10{
+            display: none;
+        }
+        #new11{
+            display: none;
+        }
+        #new12{
+            display: none;
+        }
+        .abc20{
+            text-transform: capitalize;
+            padding-left: 5px;
+            margin-bottom: 5px;
+        }
+
+        #new70{
+            display: none;
+        }
+
+        #camp .abc3{
+            display: none;
+        }
+        /* #champion {
+          
+           width: 100%;
+           height: 200vh;
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-position: center;
+        } */
+
+        .how1{
+            background: linear-gradient(to right,rgb(127,180,228),rgb(199,98,241));
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          
+        }
+        .how4{
+            text-align: center;
+        }
+        .how2{
+            height: 400px;
+            width: 400px;
+            background-color: white;
+            border-radius: 20px;
+        }
+        .how3{
+            display: flex;
+            flex-direction: column;
+        }
+        .how5{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            /* align-items: center; */
+            padding-left: 20px;
+            height: 150px;
+            padding-top: 15px;
+        }
+        .how6{
+            outline: none;
+            border: none;
+            width: 90%;
+            margin-top: 15px;
+            font-size: 17px;
+            margin-bottom: 5px;
+        }
+        .how7{
+            text-align: center;
+            padding-top: 45px;
+        }
+        .how7 button{
+            padding: 10px 150px 10px 150px;
+            font-size: 15px;
+            border-radius: 20px;
+            background: linear-gradient(to right,rgb(127,180,228),rgb(199,98,241));
+            border: none;
+            color: white;
+        }
+        .how8{
+            /* padding-right: -100px; */
+            display: flex;
+            /* padding-bottom: 5px; */
+            /* margin-bottom: 5px; */
+            /* padding-top: 10px; */
+            border-bottom: 2px solid black;
+            width: 90%;
+            /* padding-right: 10px; */
+        }
+        .how9{
+            /* padding-top: 100px; */
+            margin-top: 15px;
+            padding-right: 5px;
+
+        }
+        
+         .james84 {
+	-webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        }
+
+
+@-webkit-keyframes james84{
+  0% {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+ }
+ 
+@keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+} 
+
+
+
+.space1{
+    margin-top: 4px;
+}
+
+    </style>
+</head>
+<body>
+
+
+    <div class="how1" id="hii1">
+        <div class="how2">
+            <div class="how4">
+                <h1>Login</h1>
+            </div>
+            
+            <div class="how5">
+
+                <div class="how3">
+                    <label style="font-size: 20px;">Username</label>
+                    <div class="how8">
+                        <div>
+                            <i class="fa fa-user-o how9" aria-hidden="true"></i>
+                        </div>
+                        
+                        <input type="text" name="" class="how6" id="fname" placeholder="Enter your id">
+                    </div>
+                  
+                </div>
+                <div class="how3">
+                    <label style="font-size: 20px;">Password</label>
+    
+                   <div class="how8">
+                         <div>
+                             <i class="fa fa-key how9" aria-hidden="true"></i>
+                         </div>
+                   
+                        <input type="password" name="" class="how6" id="lname" placeholder="Enter your password">
+                    </div>
+                </div>
+
+            </div>
+            <div class="how7">
+                <button id="spider1">Sign In</button>
+            </div>
+            
+        </div>
+    </div> 
+
+
+    <div id="new1">
+        <div id="new2">
+            <h1>Dynamic Form</h1>
+            <h2 id="h1">Part 1</h2>
+        </div>
+        <div id="new3">
+            <select id="new5">
+                <option>--Select--</option>
+                <option id="start1">Text</option>
+                <option id="start2">Number</option>
+                <option id="start3">Email</option>
+                <option id="start4">Radio</option>
+                <option id="start5">Checkbox</option>
+                <option id="start6">Select</option>
+                <option>Submit</option>
+            </select>
+            <button id="same3" >Add</button>
+        </div>
+        <div id="new4">
+
+        </div>
+        
+        <div id="new60"></div>
+       
+
+    </div>
+
+    
+    
+
+
+
+    <script>
+        let no4=document.getElementById("new1")
+        let fname1=document.getElementById("fname")
+        let lname1=document.getElementById("lname")
+        fname.style.textTransform="capitalize"
+        lname.style.textTransform="capitalize"
+       
+        document.getElementById('spider1').addEventListener("click",()=>{
+           
+            
+            console.log(lname.value)
+            if(fname.value==lname.value && fname1.value!="" && lname1.value!=""){
+                let ma1=document.getElementById("hii1")
+                ma1.style.display="none"
+                no4.style.display="block"
+          
+
+
+        let start1=document.getElementById("same3")
+        let fa4;
+        let fa6;
+        let sa31;
+        let fa1;
+        let re1;
+        let fa8;
+        let fa2;
+        let fa3;
+        let fa13;
+        let new12;
+        let new22;
+        let da1;
+        let da7;
+        let nasa3;
+        let a1
+        start1.addEventListener("click",()=>{
+           let a=document.getElementById("new5");
+     
+           a1=document.getElementById("new4");
+    
+           if(a.value=="Text"){
+            
+                a1.style.backgroundColor="white"
+                a1.style.width="98%"
+                a1.style.marginLeft="14px"
+                a1.style.borderRadius="20px"
+                fa1=document.createElement("div");
+                fa1.className="abc1"
+                a1.appendChild(fa1);
+                let fa2=document.createElement("div");
+                let fa3=document.createElement("div");
+                
+                fa2.className="abc2"
+                fa3.className="abc2"
+                fa1.appendChild(fa2);
+                fa1.appendChild(fa3);
+                fa4=document.createElement("input");
+                fa4.style.padding=" 10px 260px 10px 15px "
+                fa4.style.fontSize="20px"
+                fa4.style.backgroundColor="yellow"
+                fa4.style.borderColor="red"
+                fa4.style.outline="none"
+                fa4.style.borderRadius="10px"
+                fa4.placeholder="Label"
+
+                let fa5=document.createElement("button");
+                fa8=document.createElement("h1")
+                fa8.className="space1"
+                // fa8.style.marginTop="4px"
+                fa8.style.textTransform="capitalize"
+                fa4.style.textTransform="capitalize"
+                fa8.style.display="none"
+                fa5.style.height="47px"
+                fa5.style.width="100px"
+                fa5.style.borderRadius="10px"
+                fa5.style.borderColor="red"
+                fa5.style.fontSize="22px"
+                fa5.style.marginLeft="30px"
+                fa5.style.backgroundColor="yellow"
+                fa5.style.color="red"
+                fa8.style.color="orangered"
+              
+
+                fa5.innerHTML="Add"
+                fa2.appendChild(fa8)
+                fa2.appendChild(fa4)
+                fa2.appendChild(fa5)
+               
+                 fa6=document.createElement("input");
+                 fa6.type="text"
+                 fa6.style.textTransform="capitalize"
+                 fa6.style.padding=" 10px 260px 10px 15px "
+                fa6.style.fontSize="20px"
+                fa6.style.backgroundColor="yellow"
+                fa6.style.borderColor="red"
+                fa6.style.outline="none"
+                fa6.style.borderRadius="10px"
+                 fa6.className="camo1" 
+                
+                fa6.placeholder="Text"
+                let fa7=document.createElement("button");
+                fa7.className="camo1" 
+                fa7.id="champ2"
+                fa7.innerHTML="close"
+                fa7.style.height="47px"
+                fa7.style.width="100px"
+                fa7.style.color="red"
+                fa7.style.borderRadius="10px"
+                fa7.style.borderColor="red"
+                fa7.style.fontSize="22px"
+                fa7.style.marginLeft="30px"
+                fa7.style.backgroundColor="yellow"
+               
+                fa3.appendChild(fa6)
+                fa3.appendChild(fa7)
+            
+                fa7.setAttribute("onclick","fun10(this)")
+                fa5.addEventListener("click",()=>{
+                    fa4.style.display="none"
+                    fa5.style.display="none"
+                    fa8.style.display="block"
+               
+                    fa8.innerText=fa4.value
+                  
+                })
+             
+
+           }
+      
+           else if(a.value=="Number"){
+            a1.style.backgroundColor="white"
+                fa1=document.createElement("div");
+                fa1.className="abc1 extra60"
+                a1.appendChild(fa1);
+                let fa2=document.createElement("div");
+                let fa3=document.createElement("div");
+                fa2.className="abc2"
+                fa3.className="abc2"
+                fa1.appendChild(fa2);
+                fa1.appendChild(fa3);
+                fa4=document.createElement("input");
+                fa4.style.textTransform="capitalize"
+                fa4.placeholder="Label"
+                fa4.style.padding=" 10px 260px 10px 15px "
+                fa4.style.fontSize="20px"
+                fa4.style.backgroundColor="yellow"
+                fa4.style.borderColor="red"
+                fa4.style.outline="none"
+                fa4.style.borderRadius="10px"
+                let fa5=document.createElement("button");
+                fa5.style.height="47px"
+                fa5.style.width="100px"
+                fa5.style.borderRadius="10px"
+                fa5.style.borderColor="red"
+                fa5.style.fontSize="22px"
+                fa5.style.marginLeft="30px"
+                fa5.style.backgroundColor="yellow"
+                fa5.style.color="red"
+                fa8=document.createElement("h1")
+                fa8.className="space1"
+                fa8.style.display="none"
+                fa8.style.textTransform="capitalize"
+                fa8.style.color="orangered"
+           
+                fa5.innerHTML="Add"
+                fa2.appendChild(fa8)
+                fa2.appendChild(fa4)
+                fa2.appendChild(fa5)
+               
+                fa6=document.createElement("input");
+                // fa8.style.textTransform="capitalize"
+                fa6.type="number"
+                fa6.style.padding=" 10px 260px 10px 15px "
+                fa6.style.fontSize="20px"
+                fa6.style.backgroundColor="yellow"
+                fa6.style.borderColor="red"
+                fa6.style.outline="none"
+                fa6.style.borderRadius="10px"
+                
+                fa6.className="camo1"
+                fa6.innerHTML="Add"
+                fa6.placeholder="Number"
+                let fa7=document.createElement("button");
+                fa7.className="camo1" 
+                fa7.style.height="47px"
+                fa7.style.width="100px"
+                fa7.style.borderRadius="10px"
+                fa7.style.borderColor="red"
+                fa7.style.fontSize="22px"
+                fa7.style.marginLeft="30px"
+                fa7.style.backgroundColor="yellow"
+                fa7.style.color="red"
+                fa7.innerHTML="close"
+
+                fa3.appendChild(fa6)
+             
+                fa3.appendChild(fa7)
+                fa7.setAttribute("onclick","fun10(this)")
+                fa5.addEventListener("click",()=>{
+                    fa4.style.display="none"
+                    fa5.style.display="none"
+                    fa8.style.display="block"
+                    fa8.innerHTML=fa4.value
+                   
+                 
+                })
+                
+           }
+           else if(a.value=="Email"){
+            a1.style.backgroundColor="white"
+                fa1=document.createElement("div");
+                fa1.className="abc1 extra70"
+                a1.appendChild(fa1);
+                let fa2=document.createElement("div");
+                let fa3=document.createElement("div");
+                fa2.className="abc2"
+                fa3.className="abc2"
+                fa1.appendChild(fa2);
+                fa1.appendChild(fa3);
+                let fa4=document.createElement("input");
+                fa4.style.textTransform="capitalize"
+                fa4.placeholder="Label"
+                fa4.style.padding=" 10px 260px 10px 15px "
+                fa4.style.fontSize="20px"
+                fa4.style.backgroundColor="yellow"
+                fa4.style.borderColor="red"
+                fa4.style.outline="none"
+                fa4.style.borderRadius="10px"
+                let fa5=document.createElement("button");
+                fa5.style.height="47px"
+                fa5.style.width="100px"
+                fa5.style.borderRadius="10px"
+                fa5.style.borderColor="red"
+                fa5.style.fontSize="22px"
+                fa5.style.marginLeft="30px"
+                fa5.style.backgroundColor="yellow"
+                fa5.style.color="red"
+                let fa8=document.createElement("h1")
+                fa8.className="space1"
+                fa8.style.display="none"
+                fa8.style.color="orangered"
+             
+                fa8.style.textTransform="capitalize"
+                fa5.innerHTML="Add"
+                fa2.appendChild(fa8)
+                fa2.appendChild(fa4)
+                fa2.appendChild(fa5)
+               
+                let fa6=document.createElement("input");
+                fa6.style.textTransform="capitalize"
+                fa6.type="email"
+                fa6.placeholder="Email"
+                fa6.className="camo1"
+                fa6.style.padding=" 10px 260px 10px 15px "
+                fa6.style.fontSize="20px"
+                fa6.style.backgroundColor="yellow"
+                fa6.style.borderColor="red"
+                fa6.style.outline="none"
+                fa6.style.borderRadius="10px"
+            
+                let fa7=document.createElement("button");
+                fa7.className="camo1" 
+                fa7.style.height="47px"
+                fa7.style.width="100px"
+                fa7.style.borderRadius="10px"
+                fa7.style.borderColor="red"
+                fa7.style.fontSize="22px"
+                fa7.style.marginLeft="30px"
+                fa7.style.backgroundColor="yellow"
+                fa7.style.color="red"
+                fa7.innerHTML="close"
+                fa3.appendChild(fa6)
+                fa3.appendChild(fa7)
+
+                fa7.setAttribute("onclick","fun10(this)")
+                fa5.addEventListener("click",()=>{
+                    fa4.style.display="none"
+                    fa5.style.display="none"
+                    fa8.style.display="block"
+                    fa8.innerText=fa4.value 
+                 
+                   
+                })
+                
+           }
+           else if(a.value=="Radio"){
+            a1.style.backgroundColor="white"
+                fa1=document.createElement("div");
+                
+                fa1.className="new40"
+              
+                fa1.style.display="flex"
+                fa1.style.justifyContent="space-around"
+               
+                a1.appendChild(fa1);
+                fa2=document.createElement("div");
+             
+                fa3=document.createElement("div");
+               
+                fa13=document.createElement("div");
+                
+                fa2.className="abc2"
+                fa3.className="abc2"
+                fa1.appendChild(fa2);
+            
+                fa1.appendChild(fa13);
+                fa13.appendChild(fa3)
+                 fa4=document.createElement("input");
+                 fa4.style.textTransform="capitalize"
+             
+                fa4.placeholder="Label"
+                fa4.style.padding=" 10px 260px 10px 15px "
+                fa4.style.fontSize="20px"
+                fa4.style.backgroundColor="yellow"
+                fa4.style.borderColor="red"
+                fa4.style.outline="none"
+                fa4.style.borderRadius="10px"
+                let fa5=document.createElement("button");
+                fa5.style.height="47px"
+                fa5.style.width="100px"
+                fa5.style.borderRadius="10px"
+                fa5.style.borderColor="red"
+                fa5.style.fontSize="22px"
+                fa5.style.marginLeft="30px"
+                fa5.style.backgroundColor="yellow"
+                fa5.style.color="red"
+                let fa8=document.createElement("h1")
+                fa8.className="space1"
+                fa8.style.textTransform="capitalize"
+            
+                fa8.style.display="none"
+            
+                fa8.style.color="orangered"
+                
+                fa5.innerHTML="Add"
+                fa2.appendChild(fa8)
+                fa2.appendChild(fa4)
+                fa2.appendChild(fa5)
+               
+              
+                fa6=document.createElement("input");
+                fa6.style.textTransform="capitalize"
+                fa6.className="camo1"
+                fa6.placeholder="options"
+                fa6.style.padding=" 10px 260px 10px 15px "
+                fa6.style.fontSize="20px"
+                fa6.style.backgroundColor="yellow"
+                fa6.style.borderColor="red"
+                fa6.style.outline="none"
+                fa6.style.borderRadius="10px"
+               
+                let fa7=document.createElement("button");
+                fa7.style.height="47px"
+                fa7.style.width="100px"
+                fa7.style.borderRadius="10px"
+                fa7.style.borderColor="red"
+                fa7.style.fontSize="22px"
+                fa7.style.marginLeft="30px"
+                fa7.style.backgroundColor="yellow"
+                fa7.style.color="red"
+               
+                fa7.innerHTML="Add"
+                let fa10=document.createElement("button");
+                fa10.style.height="47px"
+                fa10.style.width="100px"
+                fa10.style.borderRadius="10px"
+                fa10.style.borderColor="red"
+                fa10.style.fontSize="22px"
+                fa10.style.marginLeft="30px"
+                fa10.style.backgroundColor="yellow"
+                fa10.style.color="red"
+
+                fa10.innerHTML="close"
+             
+                fa3.appendChild(fa6)
+                fa3.appendChild(fa7)
+                fa3.appendChild(fa10)
+                fa10.setAttribute("onclick","fun11(this)")
+                fa5.addEventListener("click",()=>{
+                    fa4.style.display="none"
+                    fa5.style.display="none"
+                    fa8.style.display="block"
+                    fa8.innerText=fa4.value 
+                     
+                da7=document.getElementsByClassName("new40")
+                for(var so1=0;so1<da7.length;so1++){
+                    da7[so1].style.marginLeft="-85px"
+                }
+                    fa7.addEventListener("click",()=>{
+                    if(fa6.value.trim()!==""){
+                        
+                        sa5=document.createElement("div")
+                        let sa4=document.createElement("div")
+                        sa4.style.margin="5px"
+                        fa3.style.paddingTop="20px"
+                      
+                        let sa2=document.createElement("input")
+                        sa2.style.textTransform="capitalize"
+                        sa2.className="camo1"
+                        let sa3=document.createElement("label")
+                       
+                        sa2.setAttribute("type", "radio");
+                        sa2.setAttribute("name", "option");
+                        sa2.setAttribute("value", fa6.value);
+                        fa3.appendChild(sa2)
+                        fa3.appendChild(sa3)
+                        sa3.innerHTML=fa6.value
+                   
+                       sa3.style.color="red"
+                       sa3.style.fontSize="20px"
+                       sa3.className="abc20"
+                        sa4.className="abc7"
+                        sa4.appendChild(sa2)
+                        sa4.appendChild(sa3)
+                        sa4.appendChild(fa3)
+                        fa13.appendChild(sa5)
+                        fa13.appendChild(sa4)
+                        fa6.value=""
+                    }
+                })
+                })
+               
+                
+           }
+
+         
+ else if(a.value=="Checkbox"){
+    a1.style.backgroundColor="white"
+                fa1=document.createElement("div");
+                fa1.style.marginTop="30px"
+                fa1.className="extra50"
+                fa1.style.display="flex"
+                fa1.style.justifyContent="space-around"
+               
+                a1.appendChild(fa1);
+                let fa2=document.createElement("div");
+                let fa3=document.createElement("div");
+              
+                let fa13=document.createElement("div");
+                fa2.className="abc2"
+                fa3.className="abc2"
+                fa1.appendChild(fa2);
+             
+                fa1.appendChild(fa13);
+                fa13.appendChild(fa3)
+                fa4=document.createElement("input");
+                fa4.style.textTransform="capitalize"
+                fa4.style.padding=" 10px 260px 10px 15px "
+                fa4.style.fontSize="20px"
+                fa4.style.backgroundColor="yellow"
+                fa4.style.borderColor="red"
+                fa4.style.outline="none"
+                fa4.style.borderRadius="10px"
+                fa4.placeholder="Label"
+                let fa5=document.createElement("button");
+                fa5.style.height="47px"
+                fa5.style.width="100px"
+                fa5.style.borderRadius="10px"
+                fa5.style.borderColor="red"
+                fa5.style.fontSize="22px"
+                fa5.style.marginLeft="30px"
+                fa5.style.backgroundColor="yellow"
+                fa5.style.color="red"
+                fa8=document.createElement("h1")
+                fa8.className="space1"
+                fa8.style.textTransform="capitalize"
+
+              
+               
+                fa8.style.color="orangered"
+                fa8.style.display="none"
+              
+                fa5.innerHTML="Add"
+                fa2.appendChild(fa8)
+                fa2.appendChild(fa4)
+                fa2.appendChild(fa5)
+
+                fa6=document.createElement("input");
+                fa6.style.textTransform="capitalize"
+                fa6.style.marginTop="10px"
+                fa6.placeholder="options"
+                fa6.className="camo1"
+                fa6.style.padding=" 10px 260px 10px 15px "
+                fa6.style.fontSize="20px"
+                fa6.style.backgroundColor="yellow"
+                fa6.style.borderColor="red"
+                fa6.style.outline="none"
+                fa6.style.borderRadius="10px"
+                let fa7=document.createElement("button");
+                fa7.style.marginLeft="20px"
+                fa7.style.backgroundColor="yellow"
+                fa7.style.borderColor="red"
+                fa7.style.fontSize="20px"
+                fa7.style.color="red"
+                fa7.style.width="60px"
+                fa7.style.height="47px"
+                fa7.style.borderRadius="20px"
+                fa7.innerHTML="Add"
+                let fa10=document.createElement("button");
+                fa10.innerHTML="close"
+                fa10.style.marginLeft="20px"
+                fa10.style.backgroundColor="yellow"
+                fa10.style.borderColor="red"
+                fa10.style.fontSize="20px"
+                fa10.style.color="red"
+                fa10.style.width="60px"
+                fa10.style.height="47px"
+                fa10.style.borderRadius="20px"
+                fa3.appendChild(fa6)
+                fa3.appendChild(fa7)
+                fa3.appendChild(fa10)
+                fa10.setAttribute("onclick","fun11(this)")
+                
+                fa5.addEventListener("click",()=>{
+                    fa4.style.display="none"
+                    fa5.style.display="none"
+                    fa8.style.display="block"
+                    fa8.innerText=fa4.value 
+                    da7=document.getElementsByClassName("extra50")
+                    for(var ta1=0;ta1<da7.length;ta1++){
+                    da7[ta1].style.marginLeft="-90px"
+                    }
+                    fa8.style.marginTop="-5px"
+                    fa7.addEventListener("click",()=>{
+                    if(fa6.value.trim()!==""){
+                        let sa4=document.createElement("div")
+                        sa4.style.margin="5px"
+                        let sa2=document.createElement("input")
+                        sa2.style.textTransform="capitalize"
+
+                        sa2.className="camo1"
+                      
+                        let sa3=document.createElement("label")
+                        sa2.setAttribute("type", "checkbox");
+                        sa2.setAttribute("name", "option");
+                        sa2.setAttribute("value", fa6.value);
+                        fa3.appendChild(sa2)
+                        fa3.appendChild(sa3)
+                        sa3.innerHTML=fa6.value
+                    
+                        sa3.style.color="red"
+                        sa3.style.fontSize="20px"
+                        sa3.className="abc20"
+                        sa4.className="abc7"
+                        sa4.appendChild(sa2)
+                        sa4.appendChild(sa3)
+                        sa4.appendChild(fa3)
+                        fa13.appendChild(sa4)
+                        fa6.value=""
+                    }
+                })
+                })
+               
+ }
+ else if(a.value=="Select"){
+    a1.style.backgroundColor="white"
+                fa1=document.createElement("div");
+                fa1.className="abc1 extra80"
+                a1.appendChild(fa1);
+                let fa2=document.createElement("div");
+                let fa3=document.createElement("div");
+             
+                fa2.className="abc2"
+                fa3.className="abc2"
+                fa1.appendChild(fa2);
+                fa1.appendChild(fa3);
+                let fa4=document.createElement("input");
+                fa4.style.textTransform="capitalize"
+                fa4.placeholder="Label"
+                fa4.style.padding=" 10px 260px 10px 15px "
+                fa4.style.fontSize="20px"
+                fa4.style.backgroundColor="yellow"
+                fa4.style.borderColor="red"
+                fa4.style.outline="none"
+                fa4.style.borderRadius="10px"
+                let fa5=document.createElement("button");
+                fa5.style.height="47px"
+                fa5.style.width="100px"
+                fa5.style.borderRadius="10px"
+                fa5.style.borderColor="red"
+                fa5.style.fontSize="22px"
+                fa5.style.marginLeft="30px"
+                fa5.style.backgroundColor="yellow"
+                fa5.style.color="red"
+                fa8=document.createElement("h1")
+                fa8.className="space1"
+                fa8.style.textTransform="capitalize"
+                let fa7=document.createElement("button");
+                fa7.style.height="47px"
+                fa7.style.width="70px"
+                fa7.style.borderRadius="10px"
+                fa7.style.borderColor="red"
+                fa7.style.fontSize="22px"
+                fa7.style.marginLeft="30px"
+                fa7.style.backgroundColor="yellow"
+                fa7.style.color="red"
+                fa8.style.display="none"
+                fa7.innerHTML = "Add"
+                fa8.style.color="orangered"
+
+                fa5.innerHTML="Add"
+                fa2.appendChild(fa8)
+                fa2.appendChild(fa4)
+                fa2.appendChild(fa5)
+               let fa15=document.createElement("div")
+             
+                fa6=document.createElement("select");
+                fa6.style.textTransform="capitalize"
+                fa6.className="camo1 mb1"
+                fa6.id="name84"
+                fa6.style.padding=" 10px 260px 10px 15px "
+                fa6.style.fontSize="20px"
+                fa6.style.backgroundColor="yellow"
+                fa6.style.borderColor="red"
+                fa6.style.outline="none"
+                fa6.style.borderRadius="10px"
+                fa6.style.marginTop="10px"
+
+                let fa12=document.createElement("input")
+                fa12.style.textTransform="capitalize"
+                fa12.className="camo1"
+                fa12.style.padding=" 10px 260px 10px 15px "
+                fa12.style.fontSize="20px"
+                fa12.style.backgroundColor="yellow"
+                fa12.style.borderColor="red"
+                fa12.style.outline="none"
+                fa12.style.borderRadius="10px"
+                fa12.style.marginTop="10px"
+
+              
+                fa15.appendChild(fa6)
+                fa15.appendChild(fa12)
+                fa3.style.display="flex"
+                fa3.style.flexDirection = "column"
+               
+                fa7.innerHTML="close"
+              
+                new12=document.createElement("div")
+                new12.style.textAlign="center"
+                new12.style.paddingTop="30px"
+
+                let btn12=document.createElement("button");
+                btn12.innerHTML = "Add"
+                btn12.style.backgroundColor="yellow"
+                btn12.style.borderColor="red"
+                btn12.style.fontSize="20px"
+                btn12.style.width="100px"
+                btn12.style.height="50px"
+                btn12.style.borderRadius="20px"
+                new12.appendChild(btn12)
+
+                fa3.appendChild(fa6)
+                fa3.appendChild(fa12)
+                fa1.appendChild(fa7)
+                fa3.appendChild(new12)
+                fa7.addEventListener("click",()=>{
+                    fa12.style.display="none"
+                    btn12.style.display="none"
+                    fa7.style.display="none"
+                })
+                fa5.addEventListener("click",()=>{
+                    fa4.style.display="none"
+                    fa5.style.display="none"
+                    fa8.style.display="block"
+                    fa8.innerText=fa4.value 
+                    let da8=document.getElementsByClassName("extra80");
+                    for(var ja1=0;ja1<da8.length;ja1++){
+                        da8[ja1].style.marginLeft="-113px"
+                    }
+                    btn12.addEventListener("click",()=>{
+                          let fa20 = document.createElement('option')
+                          fa20.style.textTransform="capitalize"
+                          fa20.className="hero2"
+                        fa20.innerHTML =fa12.value
+                        fa20.value=fa12.value
+                        fa6.appendChild(fa20)
+
+                        fa12.value=""
+
+                    })
+                })
+                
+           }
+        
+        
+        else if(a.value=="Submit") {
+            a1.style.backgroundColor="white"
+          let su1=document.createElement("div")
+          let ro1=document.getElementById("nice4")
+          su1.style.textAlign="center"
+      
+          let su2=document.createElement("button")
+          su1.appendChild(su2)
+          a1.appendChild(su1)
+          su2.innerHTML="Submit"
+          alert("form is going to part2")
+          su2.style.backgroundColor="yellow"
+          su2.style.borderColor="red"
+          su2.style.fontSize="20px"
+          su2.style.borderRadius="10px"
+          su2.style.padding="13px 30px 13px 30px"
+          su2.style.marginTop="20px"
+          su2.style.color="red"
+          su2.className="james84"
+         
+      
+          su2.addEventListener("click", () => {
+
+               
+                let no1=document.getElementById("new2")
+               
+               
+                let no2=document.getElementById("new3")
+                let no3=document.getElementById("new60")
+                
+               
+                
+                no1.style.display="none"
+                no2.style.display="none"
+                a1.style.display="none"
+                no4.style.backgroundColor="pink"
+                let sai2=document.getElementsByClassName("camo1");
+                
+                for(var g=0;g<sai2.length;g++){
+                    sai2[g].style.backgroundColor="rgb(92 51 96)"
+                    sai2[g].style.color="white"
+
+                   
+                }
+             
+                let sa6=document.createElement("div")
+                sa6.id="champion"
+                sa6.style.background="linear-gradient(to right,yellow,pink)"
+                // sa6.style.height="100vh"
+                let sa1=document.createElement("div")
+               
+                sa1.style.textAlign="center"
+                let sa3=document.createElement("div")
+               
+
+                sa3.style.textAlign="center"
+                sa3.style.paddingTop="50px"
+                // sa3.style.color="pink"
+                sa3.style.color="white"
+                su2.style.display="none"
+                var dick2=document.getElementsByClassName("space1")
+                for(var hap6=0;hap6<dick2.length;hap6++){
+                     dick2[hap6].style.color="white"
+                }
+                sa1.innerHTML=a1.innerHTML
+                // sa1.style.color="white"
+               
+                sa1.className="james84"
+
+                // sa1.style.color="yellow"
+              
+                
+                let sa7=document.createElement("h1")
+                let sa2=document.createElement("h1")
+              
+               
+                sa3.appendChild(sa7)
+                sa3.appendChild(sa2)
+                sa7.innerHTML="Dynamic form"
+              
+                sa2.innerHTML="Part 2"
+                sa7.style.fontSize="50px"
+               
+                sa2.style.fontSize="40px"
+                sa6.appendChild(sa3)
+                sa6.appendChild(sa1)
+                no3.appendChild(sa6)
+              
+               
+              
+
+                sa6.style.color="red"
+              
+                // sa6.style.backgroundRepeat="none"
+                // sa6.style.backgroundSize="cover"
+                no4.style.background="linear-gradient(to right, yellow, pink)"
+                // sa1.style.height="100vh"
+          
+                let nas1=document.createElement("button")
+                nas1.style.backgroundColor="rgb(92, 51, 96)"
+                nas1.style.borderColor="red"
+                nas1.style.marginTop="20px"
+                nas1.style.padding="10px 15px 10px 15px"
+                nas1.style.borderRadius="10px"
+                nas1.style.fontSize="30px"
+                nas1.style.color="white"
+                nas1.innerHTML="Submit"
+                sa1.appendChild(nas1)
+                nas1.addEventListener("click",()=>{
+
+
+                    nas1.style.display="none"
+                    sa6.style.display="none"
+                    sa1.style.display="none"
+                    alert("Thank u for submitting your details")
+                    // no3.style.backgroundColor="yellow"
+                    // no3.style.height="100vh"
+                    let no3=document.getElementById("new60")
+                   
+                    let fu1=document.createElement("div")
+                  
+                    fu1.style.height="100vh"
+                    fu1.id="camp"
+                    no3.appendChild(fu1)
+                    fu1.style.paddingTop="40px"
+                    fu1.style.background="linear-gradient(to left,#1bb6cd,#76e27e)"
+                    fu1.style.display="flex"
+                    fu1.style.justifyContent="center"
+                    fu1.style.alignItems="center"
+                   
+                    let fu2=document.createElement("div")
+                    fu2.style.width="650px"
+                    fu2.style.height="379px"
+                    fu2.style.display="flex"
+                    fu2.style.backgroundColor="#24c7ae"
+
+                    fu2.style.justifyContent="space-evenly"
+                    fu1.appendChild(fu2)
+                    let fu3=document.createElement("div")
+                    
+                    fu3.style.marginTop="18px"
+                    let fu4=document.createElement("div")
+                   
+                    // fu4.style.color="pink"
+                      fu2.appendChild(fu3)
+                      fu2.appendChild(fu4)
+                      fu3.innerHTML=sa1.innerHTML
+                    //   fu3.style.color="blue"
+                    
+                    sa31=document.getElementsByClassName("camo1");
+                      re1=document.getElementsByClassName("abc1");
+                      for(j=0;j<re1.length;j++){
+                      re1[j].style.paddingTop="0px"
+                      re1[j].style.marginTop="-18px"
+                      re1[j].style.marginLeft="0px"
+
+                      }
+                    let mb1 = document.getElementsByClassName('hero2')
+                    
+                    let new23=document.createElement("h1")
+                    
+                    for(var i=0;i<sa31.length;i++){
+                        if(sa31[i].type=="text" || sa31[i].type=="number" || sa31[i].type=="email" ){
+                            let new22=document.createElement("h1")
+                            var dick1=document.getElementsByClassName("space1")
+                           for(var hap=0;hap<dick1.length;hap++){
+                            dick1[hap].style.marginTop="0px"
+                            dick1[hap].style.color="orangered"
+                           }
+                            new22.innerHTML=sa31[i].value
+                            new22.style.color="orangered"
+                            for(var hap1=0;hap1<re1.length;hap1++){
+                               re1[hap1].style.marginTop="0px"
+                            }
+                            fu4.appendChild(new22)
+                            let ha1=document.getElementsByClassName("extra60")
+                            let ha2=document.getElementsByClassName("extra70")
+                            let ha3=document.getElementsByClassName("extra80")
+                            let ha4=document.getElementsByClassName("new40")
+                            for(var fa1=0;fa1<ha1.length;fa1++){
+                                ha1[fa1].style.marginTop="0px"
+                            }
+                            for(var fa2=0;fa2<ha2.length;fa2++){
+                                ha2[fa2].style.marginTop="0px"
+                            }
+                            for(var fa3=0;fa3<ha3.length;fa3++){
+                                ha3[fa3].style.marginTop="0px"
+                                ha3[fa3].style.paddingTop="19px"
+                            }
+                            for(var fa4=0;fa4<ha4.length;fa4++){
+                                ha4[fa4].style.marginTop="0px"
+                            }
+                            
+                        }
+                        else if(sa31[i].type=="radio"){
+                            if(sa31[i].checked==true){
+                                let new22=document.createElement("h1")
+                                new22.style.marginTop="10px"
+                                new22.style.color="orangered"
+                                let da=document.getElementsByClassName("abc7");
+                                da1=document.getElementsByClassName("new40");
+                             
+
+                                for(var t=0;t<da.length;t++){
+                                    da[t].style.display="none"
+                                }
+                                for(var p=0;p<da1.length;p++){
+                                    da1[p].style.paddingTop="0px"
+                                    da1[p].style.marginTop="-23px"
+                                    da1[p].style.marginLeft="0px"
+
+                                }
+                                    new22.innerHTML=sa31[i].value
+                                    fu4.appendChild(new22)
+                                   
+                            }
+                        }
+                        else if(sa31[i].type=="checkbox"){
+                            let sa30=document.createElement("p")
+                            fu4.appendChild(sa30)
+                            new23.style.color="orangered"
+                            if(sa31[i].checked==true){
+                                let da=document.getElementsByClassName("abc7");
+                                da7=document.getElementsByClassName("extra50");
+                                
+                                for(var aa=0;aa<da7.length;aa++){
+                                    da7[aa].style.marginTop="0px"
+                                    da7[aa].style.marginLeft="0px"
+                                }
+
+                                for(var t=0;t<da.length;t++){
+                                    da[t].style.display="none"
+                                }
+                                
+                                new23.innerHTML +=sa31[i].value+" , "
+                                sa30.appendChild(new23)
+                                
+                                fu4.style.marginLeft="5px"
+                                fu3.style.marginLeft="10px"
+                           
+                                   
+                            }
+                        }
+                     
+
+                        fu4.style.paddingTop="-10px"
+                        fu4.style.textTransform="capitalize"
+                        fu4.style.paddingBottom="50px"
+                        sa31[i].style.display="none"
+                        fa8.style.marginLeft="0px"
+                       
+                        
+                     
+                    }
+                  
+                    // select 
+
+
+                    let sa44=document.getElementById("name84");
+                               
+                    new22=document.createElement("h1")
+                    new22.style.color="orangered"
+                    new22.innerHTML=sa44.value
+                    console.log(sa44.value)
+                    fu4.appendChild(new22)
+                   
+                    let da=document.getElementsByClassName("abc7");
+                    for(var t=0;t<da.length;t++){
+                        da[t].style.display="none"
+                    }
+                    let ha3=document.getElementsByClassName("extra80")
+                            for(var fa3=0;fa3<ha3.length;fa3++){
+                                ha3[fa3].style.marginTop="-18px"
+                              
+                            }
+                 
+                })
+            
+       })
+        
+          
+        }
+        
+        
+           
+           
+        })
+
+
+            }
+            else if(fname1.value=="" || lname1.value==""){
+                 alert("plz enter your login details")
+                fname.value="";
+                lname.value="";
+            }
+            // else if(lname1.value==""){
+            //      alert("plz enter last name")
+            //     fname.value="";
+            //     lname.value="";
+            // }
+            else{
+                alert("You entered wrong details")
+                fname.value="";
+                lname.value="";
+            }
+        })
+
+
+
+
+
+
+
+        
+        function fun11(c){
+            a.parentNode.remove();
+        }
+        function fun10(a){
+            a.parentNode.parentNode.remove();
+        }
+        function fun11(b){
+            b.parentNode.remove();
+        }
+        
+
+    </script>
+</body>
+</html>
